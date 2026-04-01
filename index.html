@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vinay D R – MCA Developer</title>
+  <meta name="description"
+    content="Portfolio of Vinay D R – MCA student specializing in Java backend development, MySQL, and web technologies." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Particle Background -->
+  <div class="particles" id="particles"></div>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-text">VD<span class="logo-dot">R</span></span>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="hero-badge reveal-up">
+        <span class="badge-dot"></span> Available for Opportunities
+      </div>
+      <h1 class="hero-name reveal-up">
+        Vinay <span class="highlight">D R</span>
+      </h1>
+      <div class="hero-tagline reveal-up">
+        <span class="typed-text" id="typedText"></span><span class="cursor">|</span>
+      </div>
+      <p class="hero-summary reveal-up">
+        MCA student with strong backend development skills in <span class="accent">Java</span>, <span
+          class="accent">JDBC</span>, and <span class="accent">MySQL</span>. Passionate about building scalable
+        applications and solving real-world problems.
+      </p>
+      <div class="hero-actions reveal-up">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+      <div class="hero-stats reveal-up">
+        <div class="stat-item">
+          <span class="stat-number">9.21</span>
+          <span class="stat-label">CGPA</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">2+</span>
+          <span class="stat-label">Projects</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">3+</span>
+          <span class="stat-label">Certifications</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="avatar-ring reveal-right">
+        <div class="avatar-outer">
+          <div class="avatar-inner">
+            <div class="avatar-letters">VDR</div>
+          </div>
+        </div>
+        <div class="ring ring-1"></div>
+        <div class="ring ring-2"></div>
+        <div class="ring ring-3"></div>
+      </div>
+      <div class="floating-card card-1 reveal-right">
+        <span class="card-icon">☕</span> Java Developer
+      </div>
+      <div class="floating-card card-2 reveal-right">
+        <span class="card-icon">🏆</span> Best Outgoing Student
+      </div>
+      <div class="floating-card card-3 reveal-right">
+        <span class="card-icon">☁️</span> Azure AI-900
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Who I Am</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal-left">
+          <p>I'm a passionate <strong>MCA student at Reva University, Bengaluru</strong>, with a strong foundation in
+            backend development using Java, JDBC, and MySQL. I thrive on building scalable, efficient applications that
+            solve real-world problems.</p>
+          <p>With a stellar <strong>CGPA of 9.21</strong> across both my BCA and MCA degrees, I combine academic
+            excellence with practical skills. I'm recognized as the <span class="accent">Best Outgoing Student</span>
+            and a first prize holder in coding competitions.</p>
+          <p>I actively sharpen my problem-solving skills on <strong>HackerRank</strong> and possess a solid
+            understanding of Data Structures, Algorithms, and Object-Oriented Design principles.</p>
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <span class="highlight-icon">🎓</span>
+              <span>MCA @ Reva University</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-icon">📍</span>
+              <span>Bengaluru, Karnataka</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-icon">💡</span>
+              <span>Backend Developer</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-icon">🏆</span>
+              <span>Best Outgoing Student 2023–24</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-cards reveal-right">
+          <div class="info-card">
+            <div class="info-card-icon">🎯</div>
+            <h3>Goal</h3>
+            <p>Contribute to high-performance engineering teams & build impactful software</p>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon">📚</div>
+            <h3>Learning</h3>
+            <p>Data Structures & Algorithms, Cloud Technologies, System Design</p>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon">⚡</div>
+            <h3>Strengths</h3>
+            <p>Problem Solving, OOP, Database Design, Clean Code Practices</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section section-dark">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Technical Skills</span>
+        <h2 class="section-title">My Expertise</h2>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-category reveal-up" style="--delay:0s">
+          <div class="skill-category-icon">💻</div>
+          <h3>Programming Languages</h3>
+          <div class="skill-tags">
+            <span class="skill-tag primary">Java (Core)</span>
+            <span class="skill-tag primary">OOP</span>
+            <span class="skill-tag primary">Collections</span>
+            <span class="skill-tag primary">Exception Handling</span>
+            <span class="skill-tag">Python</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal-up" style="--delay:0.1s">
+          <div class="skill-category-icon">⚙️</div>
+          <h3>Backend Technologies</h3>
+          <div class="skill-tags">
+            <span class="skill-tag primary">JDBC</span>
+            <span class="skill-tag">Java Swing</span>
+            <span class="skill-tag">DAO Pattern</span>
+            <span class="skill-tag">REST Concepts</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal-up" style="--delay:0.2s">
+          <div class="skill-category-icon">🗄️</div>
+          <h3>Databases</h3>
+          <div class="skill-tags">
+            <span class="skill-tag primary">MySQL</span>
+            <span class="skill-tag primary">SQL</span>
+            <span class="skill-tag">MongoDB</span>
+            <span class="skill-tag">SQLite</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal-up" style="--delay:0.3s">
+          <div class="skill-category-icon">🌐</div>
+          <h3>Web Technologies</h3>
+          <div class="skill-tags">
+            <span class="skill-tag primary">HTML5</span>
+            <span class="skill-tag primary">CSS3</span>
+            <span class="skill-tag primary">JavaScript</span>
+            <span class="skill-tag">PHP</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal-up" style="--delay:0.4s">
+          <div class="skill-category-icon">🧠</div>
+          <h3>Core CS Concepts</h3>
+          <div class="skill-tags">
+            <span class="skill-tag primary">Data Structures</span>
+            <span class="skill-tag primary">Algorithms</span>
+            <span class="skill-tag">DBMS</span>
+            <span class="skill-tag">OS</span>
+            <span class="skill-tag">Software Engineering</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal-up" style="--delay:0.5s">
+          <div class="skill-category-icon">🛠️</div>
+          <h3>Tools & Platforms</h3>
+          <div class="skill-tags">
+            <span class="skill-tag primary">Git</span>
+            <span class="skill-tag">HackerRank</span>
+            <span class="skill-tag">Azure</span>
+            <span class="skill-tag">Problem Solving</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Skill Bars -->
+      <div class="skill-bars reveal-up">
+        <h3 class="skill-bars-title">Proficiency Level</h3>
+        <div class="skill-bar-item">
+          <div class="skill-bar-info">
+            <span>Java & OOP</span><span>90%</span>
+          </div>
+          <div class="skill-bar-track">
+            <div class="skill-bar-fill" data-width="90"></div>
+          </div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-info">
+            <span>MySQL & SQL</span><span>85%</span>
+          </div>
+          <div class="skill-bar-track">
+            <div class="skill-bar-fill" data-width="85"></div>
+          </div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-info">
+            <span>Data Structures & Algorithms</span><span>80%</span>
+          </div>
+          <div class="skill-bar-track">
+            <div class="skill-bar-fill" data-width="80"></div>
+          </div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-info">
+            <span>HTML / CSS / JavaScript</span><span>75%</span>
+          </div>
+          <div class="skill-bar-track">
+            <div class="skill-bar-fill" data-width="75"></div>
+          </div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-info">
+            <span>Python</span><span>65%</span>
+          </div>
+          <div class="skill-bar-track">
+            <div class="skill-bar-fill" data-width="65"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Projects</span>
+        <h2 class="section-title">What I've Built</h2>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card reveal-up" style="--delay:0s">
+          <div class="project-header">
+            <div class="project-icon">🛒</div>
+            <div class="project-links">
+              <span class="project-date">Mar 2024 – May 2024</span>
+            </div>
+          </div>
+          <h3 class="project-title">ElectroSolve Nexus</h3>
+          <p class="project-description">
+            A full-stack e-commerce and tech support platform with optimized relational database schema and efficient
+            CRUD operations. Focused on improving user experience and system efficiency.
+          </p>
+          <ul class="project-features">
+            <li>Designed relational database schema & optimized queries</li>
+            <li>Implemented CRUD operations using MySQL & PHP</li>
+            <li>Enhanced user experience & system efficiency</li>
+          </ul>
+          <div class="project-tech">
+            <span class="tech-tag">MySQL</span>
+            <span class="tech-tag">PHP</span>
+            <span class="tech-tag">HTML/CSS</span>
+            <span class="tech-tag">Full-Stack</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal-up" style="--delay:0.15s">
+          <div class="project-header">
+            <div class="project-icon">📝</div>
+            <div class="project-links">
+              <span class="project-date">Featured Project</span>
+            </div>
+          </div>
+          <h3 class="project-title">SmartQuizMaster</h3>
+          <p class="project-description">
+            A Java Swing-based quiz application with real-time scoring, hints, and a leveling system. Built with clean
+            DAO architecture and optimized database queries for high performance.
+          </p>
+          <ul class="project-features">
+            <li>Built with Java Swing + JDBC + SQLite integration</li>
+            <li>Applied DAO pattern & optimized db queries</li>
+            <li>Real-time scoring, hints, and level system</li>
+            <li>Reduced query execution time significantly</li>
+          </ul>
+          <div class="project-tech">
+            <span class="tech-tag">Java</span>
+            <span class="tech-tag">Swing</span>
+            <span class="tech-tag">JDBC</span>
+            <span class="tech-tag">SQLite</span>
+            <span class="tech-tag">OOP</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section section-dark">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Experience & Certifications</span>
+        <h2 class="section-title">My Journey</h2>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item reveal-left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <span class="timeline-badge internship">Internship</span>
+              <span class="timeline-date">May 2024 – Jun 2024</span>
+            </div>
+            <h3>Web Development Intern</h3>
+            <h4>Reliable Software Technology</h4>
+            <ul>
+              <li>Learned HTML, CSS, and JavaScript fundamentals</li>
+              <li>Improved understanding of web structure and UI styling</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <span class="timeline-badge cert">Certification</span>
+              <span class="timeline-date">2026</span>
+            </div>
+            <h3>Microsoft Certified: Azure AI Fundamentals</h3>
+            <h4>Microsoft — AI-900</h4>
+            <p>Validated knowledge of AI and machine learning concepts on Microsoft Azure.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <span class="timeline-badge cert">Certification</span>
+              <span class="timeline-date">2025</span>
+            </div>
+            <h3>Python Foundation</h3>
+            <h4>Infosys Springboard</h4>
+            <p>Completed Python programming fundamentals certification.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <span class="timeline-badge cert">Certification</span>
+              <span class="timeline-date">2025</span>
+            </div>
+            <h3>Basics of Java</h3>
+            <h4>Infosys Springboard</h4>
+            <p>Completed Java programming basics certification.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Education</span>
+        <h2 class="section-title">Academic Background</h2>
+      </div>
+      <div class="education-grid">
+
+        <div class="edu-card reveal-up" style="--delay:0s">
+          <div class="edu-card-icon">🎓</div>
+          <div class="edu-card-badge">Current</div>
+          <h3>Master of Computer Application</h3>
+          <h4>Reva University, Bengaluru</h4>
+          <div class="edu-year">2024 – 2026</div>
+          <div class="edu-cgpa">
+            <span class="cgpa-label">CGPA</span>
+            <span class="cgpa-value">9.3</span>
+          </div>
+          <div class="cgpa-bar">
+            <div class="cgpa-fill" data-width="92"></div>
+          </div>
+        </div>
+
+        <div class="edu-card reveal-up" style="--delay:0.15s">
+          <div class="edu-card-icon">📖</div>
+          <div class="edu-card-badge completed">Completed</div>
+          <h3>Bachelor of Computer Application</h3>
+          <h4>LBS Govt. First Grade College, Bengaluru</h4>
+          <div class="edu-year">2021 – 2024</div>
+          <div class="edu-cgpa">
+            <span class="cgpa-label">CGPA</span>
+            <span class="cgpa-value">9.21</span>
+          </div>
+          <div class="cgpa-bar">
+            <div class="cgpa-fill" data-width="92"></div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Highlights -->
+      <div class="achievements reveal-up">
+        <h3 class="achievements-title">🏆 Highlights & Achievements</h3>
+        <div class="achievements-grid">
+          <div class="achievement-item">
+            <div class="achievement-icon">🥇</div>
+            <div class="achievement-text">
+              <strong>Best Outgoing Student 2023–24</strong>
+              <span>LBS Government First Grade College</span>
+            </div>
+          </div>
+          <div class="achievement-item">
+            <div class="achievement-icon">🏆</div>
+            <div class="achievement-text">
+              <strong>First Prize – Coding Competition 2023–24</strong>
+              <span>LBS Government First Grade College</span>
+            </div>
+          </div>
+          <div class="achievement-item">
+            <div class="achievement-icon">⭐</div>
+            <div class="achievement-text">
+              <strong>HackerRank Problem Solver</strong>
+              <span>Actively practicing Data Structures & Algorithms</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section section-dark">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Contact</span>
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="section-subtitle">I'm open to internships, full-time roles, and collaborations. Feel free to reach
+          out!</p>
+      </div>
+      <div class="contact-grid">
+        <a href="mailto:vinaydr200310@gmail.com" class="contact-card reveal-up" style="--delay:0s">
+          <div class="contact-icon">✉️</div>
+          <h3>Email</h3>
+          <p>vinaydr200310@gmail.com</p>
+        </a>
+        <a href="tel:+917899062883" class="contact-card reveal-up" style="--delay:0.1s">
+          <div class="contact-icon">📞</div>
+          <h3>Phone</h3>
+          <p>+91 78990 62883</p>
+        </a>
+        <div class="contact-card reveal-up" style="--delay:0.2s">
+          <div class="contact-icon">📍</div>
+          <h3>Location</h3>
+          <p>Bengaluru, Karnataka</p>
+        </div>
+        <a href="https://www.hackerrank.com" target="_blank" class="contact-card reveal-up" style="--delay:0.3s">
+          <div class="contact-icon">💻</div>
+          <h3>HackerRank</h3>
+          <p>View My Profile</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">VDR</div>
+      <p>© 2026 Vinay D R. Crafted with ❤️ and ☕</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
